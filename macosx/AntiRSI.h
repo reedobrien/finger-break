@@ -9,11 +9,11 @@
 
 #include "../antirsi-core/antirsi-core.h"
 
-#define sLatestVersionURL @"http://tech.inhelsinki.nl/antirsi/antirsi_version.txt"
-#define sURL @"http://tech.inhelsinki.nl/antirsi/"
+#define sLatestVersionURL @"https://raw.github.com/reedobrien/finger-break/master/current-version.txt"
+#define sURL @"http://github.com/reedobrien/finger-break"
 
 #define sMicroPause @"Micro Pause"
-#define sWorkBreak  @"Work Break"
+#define sWorkBreak  @"Finger Break"
 
 @interface AntiRSI : NSObject
 {

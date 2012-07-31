@@ -13,12 +13,12 @@
 		4DB6164F061B59EA002EF355 /* AntiRSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6164D061B59EA002EF355 /* AntiRSI.m */; };
 		4DF73F67061E136200B0D9C9 /* AntiRSIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF73F65061E136200B0D9C9 /* AntiRSIView.m */; };
 		4DF73F68061E136200B0D9C9 /* AntiRSIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF73F66061E136200B0D9C9 /* AntiRSIView.h */; };
-		4DF73F86061E155C00B0D9C9 /* AntiRSI.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DF73F85061E155C00B0D9C9 /* AntiRSI.icns */; };
+		4DF73F86061E155C00B0D9C9 /* FingerBreak.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DF73F85061E155C00B0D9C9 /* FingerBreak.icns */; };
 		8D1107280486CEB800E47090 /* AntiRSI_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* AntiRSI_Prefix.pch */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		EEA827B20FE0D04B009F8249 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA827B00FE0D04B009F8249 /* MainMenu.xib */; };
+		974C1FDB15C7A68F005092F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA827B00FE0D04B009F8249 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		4DF73BC7061DAB3B00B0D9C9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
 		4DF73F65061E136200B0D9C9 /* AntiRSIView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AntiRSIView.m; sourceTree = "<group>"; };
 		4DF73F66061E136200B0D9C9 /* AntiRSIView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AntiRSIView.h; sourceTree = "<group>"; };
-		4DF73F85061E155C00B0D9C9 /* AntiRSI.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AntiRSI.icns; sourceTree = "<group>"; };
+		4DF73F85061E155C00B0D9C9 /* FingerBreak.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FingerBreak.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* AntiRSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiRSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Finger Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finger Break.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA827B10FE0D04B009F8249 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* AntiRSI.app */,
+				8D1107320486CEB800E47090 /* Finger Break.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EEA827B00FE0D04B009F8249 /* MainMenu.xib */,
-				4DF73F85061E155C00B0D9C9 /* AntiRSI.icns */,
+				4DF73F85061E155C00B0D9C9 /* FingerBreak.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -166,7 +166,7 @@
 			name = AntiRSI;
 			productInstallPath = "$(HOME)/Applications";
 			productName = AntiRSI;
-			productReference = 8D1107320486CEB800E47090 /* AntiRSI.app */;
+			productReference = 8D1107320486CEB800E47090 /* Finger Break.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -199,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				4DF73F86061E155C00B0D9C9 /* AntiRSI.icns in Resources */,
-				EEA827B20FE0D04B009F8249 /* MainMenu.xib in Resources */,
+				4DF73F86061E155C00B0D9C9 /* FingerBreak.icns in Resources */,
+				974C1FDB15C7A68F005092F8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = AntiRSI;
+				PRODUCT_NAME = "Finger Break";
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -301,7 +301,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = AntiRSI;
+				PRODUCT_NAME = "Finger Break";
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -335,7 +335,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = AntiRSI;
+				PRODUCT_NAME = "Finger Break";
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -350,7 +350,7 @@
 		03C29A060945B33D00639E3E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_VERSION = 2.1;
+				APPLICATION_VERSION = 1.0.0;
 				ARCHS = "${NATIVE_ARCH}";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
@@ -360,7 +360,7 @@
 		03C29A070945B33D00639E3E /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_VERSION = 2.1;
+				APPLICATION_VERSION = 1.0.0;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
@@ -370,7 +370,7 @@
 		03C29A080945B33D00639E3E /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_VERSION = 2.1;
+				APPLICATION_VERSION = 1.0.0;
 				ARCHS = "${NATIVE_ARCH}";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
